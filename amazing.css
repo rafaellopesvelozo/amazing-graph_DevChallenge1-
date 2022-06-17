@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    height: 20vh;
+}
+
+#navlist ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    color: #555557;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 40px;
+
+}
+#logo {
+    display: flex;
+    align-items: center;
+    color: #D2872C;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    padding-top: 60px;
+  
+}
+.section1{
+    width: 35%;
+    height: 80vh;
+    display: flex;
+    padding: 0 0 0 122px;  
+}
+.section1 h1, p, button{
+    position: absolute;
+}
+
+
+.section1 h1 {
+    color: #766F68;
+    font-size: 70px;    
+}
+
+.section1 p{
+    margin-top: 200px;
+    color: #9D9893;
+    font-size: 27px;
+}
+
+
+button{
+    margin-top: 330px;
+    background-color: #D2872C;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    height: 60px;
+    width: 315px;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.section2{
+    width: 65%;
+    height: 70vh;
+    display: flex;  
+}
+
+.section2 img{
+    width: 100%;
+    height: 80%;
+    padding-top: 20px;
+}
+
+
+button:hover{
+    background-color: #c57f2a;
+}
+
+
+
+/*menu mobile*/
+.menu-mobile{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    display: none;
+    
+}
+
+
+
+.menu-mobile .span1,.menu-mobile .span2, .menu-mobile .span3{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 20px;
+    background-color: black;
+    left: 9px;
+
+}
+.menu-mobile .span1{
+    top: 15px;
+}
+.menu-mobile .span2{   
+    top: 25px;
+}
+.menu-mobile .span3{ 
+    top: 35px;
+}
+
+/*menu mobile*/
+
+
+
+
+
+
+
